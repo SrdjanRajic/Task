@@ -20,7 +20,6 @@ namespace Task
 
         public void FillContainer(double amount)
         {
-
             if (amount <= volume && amount >= 0 && (amount + liquidAmount) <= volume)
             {
                 liquidAmount = amount;

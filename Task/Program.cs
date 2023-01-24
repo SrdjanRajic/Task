@@ -6,7 +6,6 @@ namespace Task
     {
         static void Main(string[] args)
         {
-
             Man man1 = new Man(0.4);
             Cat cat1 = new Cat(0.06);
             Bottle bottle1 = new Bottle(1.5);
